@@ -37,3 +37,18 @@ Master Password: Your Master Password is the only key to your data. There is no 
 Local Storage: All vault data is stored locally in an encrypted .db file. We do not transmit any data over the network.
 
 Hashing: Your master password is never stored directly; it is used to derive a key that encrypts your database.
+
+  🔑 Getting Started
+When you run the application for the first time, you will need to set up a local database to store your credentials:
+
+Click the "Select/Create Database" button on the main interface.
+
+A dialog window will appear, prompting you to choose the location and name of the file.
+
+Select your preferred folder and enter a filename ending in .db (e.g., my_vault.db).
+
+The program will automatically create the file and initialize the encryption system.
+
+Enter a strong "Master Password," which will be used to encrypt your database.
+
+Security Note: Never share this .db file with anyone, as it contains your encrypted sensitive data.
