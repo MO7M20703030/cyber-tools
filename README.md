@@ -25,9 +25,11 @@ Make sure you have Python installed, then install the required dependencies:
 
 ```bash
 pip install customtkinter pyperclip cryptography
-
+```
 Run the App
+```
 python secure_vault.py
+```
 
 🛡️ Security Principles
 Master Password: Your Master Password is the only key to your data. There is no "Forgot Password" feature by design to ensure maximum security. Keep it safe!
